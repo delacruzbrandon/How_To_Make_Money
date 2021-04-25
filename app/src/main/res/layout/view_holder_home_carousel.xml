@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.makeramen.roundedimageview.RoundedImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/imageView_viewHolderHome_featured"
+    android:layout_width="256dp"
+    android:layout_height="256dp"
+    app:riv_corner_radius="32dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/stock_photo1">
+
+</com.makeramen.roundedimageview.RoundedImageView>

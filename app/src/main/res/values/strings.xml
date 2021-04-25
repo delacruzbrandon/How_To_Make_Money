@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Make Money - How to Earn in 2021</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_text">If you have ever Googled how to make money online, you probably came across at least a thousand different ways to do that. Besides the traditional concepts of online selling, copywriting and participating in paid online surveys, there are new websites emerging to offer you payment for the weirdest things.\r\nHave you ever imagined that you could get paid up to ₤10 for clicking through a website or sharing something on your social media? As the Internet has turned into a battlefield for marketers, there come the advantages for users. You can earn outrageous amounts of money by reviewing, promoting or sharing businesses, taking pictures around town or answering simple questions.\r\nAnd the best part is that all that is just an Internet connection away. It requires a minimum effort and absolutely no expense from your side. So if you have a lot of free time on your hands, go check out the possibilities and have fun earning!\</string>
+    <string name="effort_format">#%sEffort</string>
+    <string name="leverage_format">#%sLeverage</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="homeBodyModel"
+            type="com.make.money2021.model.HomeBodyModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_gray_border"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:id="@+id/textView_ViewHolderHome_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/open_sans_bold"
+            android:maxLines="1"
+            android:text="@{homeBodyModel.title}"
+            android:textColor="@color/stale_black"
+            android:textSize="16sp"
+            tools:text="Endless possibilities" />
+
+        <TextView
+            android:id="@+id/textView_ViewHolderHome_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:ellipsize="end"
+            android:text="@{homeBodyModel.body}"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/bland_black"
+            tools:text="@string/sample_text"
+            android:maxLines="3"/>
+
+    </LinearLayout>
+</layout>
